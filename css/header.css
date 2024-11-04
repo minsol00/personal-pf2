@@ -1,0 +1,65 @@
+header {
+
+  height: 123px;
+}
+header nav {
+
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+header nav h1{
+  
+  background-image: url(../img/logo.png);
+  width: 132px;
+  height: 64px;
+  font-size: 0px;
+}
+header nav h1 .block {
+
+}
+header nav ul.gnb {
+
+  font-weight: 500;
+}
+header nav ul.gnb li{
+  
+}
+header nav ul.gnb li .block {
+
+  padding: 0 42px;
+}
+header nav ul.gnb li .bth{
+  
+  background: #00A5B1;
+  padding: 10px 35px 9px 35px;
+  border-radius: 20px;
+  color: white;
+  margin-left: 100px;
+}
+header nav ul.lang {
+
+  position: absolute;
+  top: 18px;
+  right: 0;
+  font-weight: 500;
+}
+header nav ul.lang li{
+  
+}
+header nav ul.lang li .block {
+
+  /*! padding: 0 5px; */
+}
+header nav ul.lang li .en{
+  
+  color: #777;
+}
+header nav ul.lang li .en::before{
+  
+  content: "│";
+  /*! border-left: 1px solid #ddd; */
+  margin: 0 10px;
+}

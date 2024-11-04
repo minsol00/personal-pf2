@@ -1,0 +1,40 @@
+#title {
+
+  height: 700px;
+}
+#title .wrap {
+
+  width: auto;
+  height: 100%;
+}
+#title .wrap ul {
+
+  height: 100%;
+}
+#title .wrap ul li {
+
+  background-image: url(../img/title4.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 calc((100% - 1280px) / 2);
+}
+#title .wrap ul li h2 {
+
+}
+#title .wrap ul li h2 a{
+  
+  color: antiquewhite;
+  font-size: 84px;
+  line-height: 1.6;
+}
+#title .wrap ul li p {
+
+  color: white;
+  font-size: 28px;
+}
